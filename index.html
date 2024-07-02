@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Local Services Lead Generation</title>
+  <title>Telc Properties</title>
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
   <header>
     <nav>
-      <div class="logo">Local Leads</div>
+      <div class="logo">Telc Properties</div>
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#services">Services</a></li>
@@ -41,6 +41,14 @@
         <h3>Lawn Care</h3>
         <p>Keep your lawn green and healthy with our expert lawn care services.</p>
       </div>
+      <div class="service">
+        <h3>Handymen</h3>
+        <p>Any services you need in and around your home, we can take care of.</p>
+      </div>
+      <div class="service">
+        <h3>New Pool Construction</h3>
+        <p>If you've been dreaming of adding a pool to your yard, we will set you up with the bust construction money can buy</p>
+      </div>
     </div>
   </section>
 
@@ -58,7 +66,11 @@
         <option value="realtors">Realtors</option>
         <option value="pool-services">Pool Services</option>
         <option value="lawn-care">Lawn Care</option>
+        <option value="handyman">Handyman</option>
       </select>
+
+      <label class="type" for="type">Type of Handyman</label>
+      <input type="text" class="type" name="type" required>
 
       <label for="message">Message</label>
       <textarea id="message" name="message" required></textarea>
@@ -68,7 +80,12 @@
   </section>
 
   <footer>
-    <p>&copy; 2024 Local Leads. All rights reserved.</p>
+    <p>&copy; 2024 Telc Properties. All rights reserved.</p>
   </footer>
+
+<script src="main.js"></script>
+
+
+
 </body>
 </html>
