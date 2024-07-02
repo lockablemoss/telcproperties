@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Services Lead Generation</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Local Leads</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Connecting You with Local Services</h1>
+      <p>Find the best realtors, pool services, lawn care, and more in your area.</p>
+      <a href="#contact" class="hero-button">Get Started</a>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="service-container">
+      <div class="service">
+        <h3>Realtors</h3>
+        <p>Find trusted realtors to help you buy or sell your home.</p>
+      </div>
+      <div class="service">
+        <h3>Pool Services</h3>
+        <p>Get the best pool maintenance and repair services.</p>
+      </div>
+      <div class="service">
+        <h3>Lawn Care</h3>
+        <p>Keep your lawn green and healthy with our expert lawn care services.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="service">Service Needed</label>
+      <select id="service" name="service" required>
+        <option value="realtors">Realtors</option>
+        <option value="pool-services">Pool Services</option>
+        <option value="lawn-care">Lawn Care</option>
+      </select>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Local Leads. All rights reserved.</p>
+  </footer>
+</body>
+</html>
